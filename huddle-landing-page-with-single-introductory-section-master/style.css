@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+  
+}
+#Huddle{
+    padding: 50px 50px 30px 50px;
+}
+#img{
+    padding: 50px 50px 50px 80px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+#texto{
+    padding: 130px 100px;
+
+}
+button{
+    background-color: hsl(300, 69%, 71%);
+    border: none;
+    border-radius: 30px;
+    padding: 20px 80px;
+    color: white;
+    font-size: 18px;
+    
+}
+button:hover{
+    box-shadow: 2px 3px 14px -5px black;
+}
+footer{
+    float: right;
+    
+}
